@@ -1,0 +1,115 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 4,
+        "params": {
+            "solrformat": "true",
+            "rows": "20",
+            "wt": "json",
+            "json": "wrf:noCB",
+            "callback": "noCB",
+            "q": "wendy wu",
+            "defType": "edismax",
+            "qf": "teacherfirstname_t^2000 teacherlastname_t^2000 teacherfullname_t^2000 autosuggest",
+            "bf": "pow(total_number_of_ratings_i,1.7)",
+            "sort": "score desc",
+            "siteName": "rmp",
+            "group": "on",
+            "group.field": "content_type_s",
+            "group.limit": "20"
+        }
+    },
+    "grouped": {
+        "content_type_s": {
+            "matches": 2,
+            "groups": [
+                {
+                    "groupValue": "TEACHER",
+                    "doclist": {
+                        "numFound": 2,
+                        "start": 0,
+                        "docs": [
+                            {
+                                "city_state_s": "Waterloo_ON",
+                                "averageratingscore_rf": 2.3,
+                                "pk_id": 547619,
+                                "schoolcity_s": "Waterloo",
+                                "schoolstate_full_s": "Ontario",
+                                "id": "teacher:547619",
+                                "pageviews_i": 4,
+                                "averagehelpfulscore_rf": 2.2,
+                                "schoolcountry_s": "Canada",
+                                "schoolname_s": "Wilfrid Laurier University-Waterloo",
+                                "status_i": 1,
+                                "averagehotscore_rf": -8.0,
+                                "schoolstate_s": "ON",
+                                "rated_date_dt": "2018-07-18T00:00:00Z",
+                                "teacherfullname_s": "Wendy Wu",
+                                "teacherdepartment_s": "Economics",
+                                "total_number_of_ratings_i": 16,
+                                "visible_i": 1,
+                                "content_type_s": "TEACHER",
+                                "averageeasyscore_rf": 3.1,
+                                "schoolid_s": "1492",
+                                "teacherfirstname_t": "Wendy",
+                                "teacherlastname_t": "Wu",
+                                "averageclarityscore_rf": 2.3,
+                                "schoolwebpage_s": "http://www.wlu.ca",
+                                "timestamp": "2019-04-30T00:58:58.819Z"
+                            },
+                            {
+                                "city_state_s": "St. Louis_MO",
+                                "averageratingscore_rf": 4.0,
+                                "pk_id": 2047564,
+                                "schoolcity_s": "St. Louis",
+                                "schoolstate_full_s": "Missouri",
+                                "id": "teacher:2047564",
+                                "pageviews_i": 24,
+                                "averagehelpfulscore_rf": 4.0,
+                                "schoolcountry_s": "United States",
+                                "schoolname_s": "Washington University in St. Louis",
+                                "status_i": 1,
+                                "averagehotscore_rf": -1.0,
+                                "schoolstate_s": "MO",
+                                "rated_date_dt": "2018-07-29T00:00:00Z",
+                                "teacherfullname_s": "Wendy Auslander",
+                                "teacherdepartment_s": "Social Work",
+                                "total_number_of_ratings_i": 2,
+                                "visible_i": 1,
+                                "content_type_s": "TEACHER",
+                                "averageeasyscore_rf": 3.5,
+                                "schoolid_s": "1147",
+                                "teacherfirstname_t": "Wendy",
+                                "teacherlastname_t": "Auslander",
+                                "averageclarityscore_rf": 4.0,
+                                "schoolwebpage_s": "http://www.wustl.edu/",
+                                "timestamp": "2019-04-30T01:06:29.449Z",
+                                "tag_s_mv": [
+                                    "Tough Grader",
+                                    "Beware Of Group Projects"
+                                ],
+                                "tag_id_s_mv": [
+                                    "1",
+                                    "7"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "spellcheck": {
+        "suggestions": [
+            "wendy",
+            {
+                "numFound": 1,
+                "startOffset": 0,
+                "endOffset": 5,
+                "suggestion": [
+                    "HU Wendy"
+                ]
+            }
+        ]
+    }
+}
